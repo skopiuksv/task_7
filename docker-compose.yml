@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  my_app:
+    build: .
+    volumes:
+      - /Users/svyatoslavskopyuk/PycharmProjects/task_7_innowise/log_files/:/app/log_files
+ 
